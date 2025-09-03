@@ -27,7 +27,7 @@ function delayedPromise(value, delay) {
     });
 
 
-    
+
 //Task2
 function randomDelay(value) {
     const delay = Math.floor(Math.random() * 4000) + 1000; // 1000-5000 мс
@@ -46,7 +46,6 @@ function randomDelay(value) {
     randomDelay("Проміс D"),
     randomDelay("Проміс E")
   ];
-  
 
   Promise.race(racePromises)
     .then((result) => {
